@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "description": "Syncs game saves and app settings between your PCs and handhelds through a folder you own.",
+    "homepage": "https://github.com/Epikou/AutoGameSoftwareSync",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/Epikou/AutoGameSoftwareSync/blob/main/TERMS.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Epikou/AutoGameSoftwareSync/releases/download/v2.0.0/AutoGameSoftwareSync-v2.0.0-win-x64.zip",
+            "hash": "49ccc2972b98947aa193a99874f5b0569cc4316f2b6503ea3f82338b54441020"
+        }
+    },
+    "bin": "AutoGameSoftwareSync.exe",
+    "shortcuts": [["AutoGameSoftwareSync.exe", "AutoGameSoftwareSync"]],
+    "checkver": { "github": "https://github.com/Epikou/AutoGameSoftwareSync" },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Epikou/AutoGameSoftwareSync/releases/download/v$version/AutoGameSoftwareSync-v$version-win-x64.zip"
+            }
+        }
+    }
+}
