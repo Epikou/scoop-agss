@@ -3,8 +3,8 @@
     "description": "Syncs game saves and app settings between your PCs and handhelds through a folder you own.",
     "homepage": "https://github.com/Epikou/AutoGameSoftwareSync",
     "license": {
-        "identifier": "Freeware",
-        "url": "https://github.com/Epikou/AutoGameSoftwareSync/blob/main/TERMS.md"
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/Epikou/AutoGameSoftwareSync/blob/main/LICENSE"
     },
     "architecture": {
         "64bit": {
